@@ -82,7 +82,7 @@ public class CssSelectorExample extends BaseTest{
 		jse.executeScript("arguments[0].setAttribute"
 				+ "('style', 'background:pink; border:4px solid red;')", book1);
 		// ^ --> starts with
-		WebElement book2 = browser.findElement(By.cssSelector("a[href^='life']"));
+		WebElement book2 = browser.findElement(By.cssSelector("a[href^=\"life\"]"));
 		jse.executeScript("arguments[0].setAttribute"
 				+ "('style', 'background:yellow; border:4px solid green;')", book2);
 		// $ --> ends with
