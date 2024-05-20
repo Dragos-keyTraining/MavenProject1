@@ -106,7 +106,7 @@ public class SeleniumLocators extends BaseTest{
 		
 	}
 	
-	@Test(priority=7)
+	@Test(priority=8)
 	public void xpathLocator() {
 		
 		browser.findElement(By.xpath("//input[@type='email']")).sendKeys("test@test.com");
